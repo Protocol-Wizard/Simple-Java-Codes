@@ -1,1 +1,1 @@
-This is where I store my Java programs :)
+This is where I store my simple Java programs :)
