@@ -1,4 +1,4 @@
-public class Assignment.java{
+public class Assignment{
     public static void main(String[] args){
             int num3 = 10;
 		    num3 += 20;
