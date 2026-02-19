@@ -1,16 +1,16 @@
-import java.util.Scanner;
-public class Calculator {
-	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
-		System.out.print("Enter first number: ");
-		float num1 = s.nextFloat();
-		System.out.print("Enter second number: ");
-		float num2 = s.nextFloat();
-		float num3 = num1+num2;
-		System.out.println("Sum: "+(num3));
-		System.out.println("Product: "+(num1*num2));
-		System.out.println("Division: "+(num1/num2));
-		System.out.println("Subtraction: "+(num1-num2));
-		System.out.println("Remainder: "+(num1%num2));
-	}
+public class Calculator{
+	public static void main(String[] args){
+		int a = 20;
+		int b = 5;
+		int add = a+b;
+		int sub = a-b;
+		int div = a/b;
+		int mul = a*b;
+		int mod = a%b;
+		System.out.println("Addition of 20 & 5 is: "+add);
+		System.out.println("Subtraction of 20 & 5 is: "+sub);
+		System.out.println("Division of 20 & 5 is: "+div);
+		System.out.println("Multiplication of 20 & 5 is: "+mul);
+		System.out.println("Remainder or the Modulus of 20 & 5 is: "+mod);
+}
 }
